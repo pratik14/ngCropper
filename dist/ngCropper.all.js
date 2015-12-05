@@ -324,7 +324,7 @@
 
     this.built = true;
     this.render();
-    this.setData(options.data);
+    //this.setData(options.data);
     $this.one(EVENT_BUILT, options.built).trigger(EVENT_BUILT); // Only trigger once
   };
 
